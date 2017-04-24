@@ -11,7 +11,9 @@ import com.spentapp.spentvenues.model.Model;
 public class VenuesApplication extends Application {
     public Model mModel;
 
-    public VenuesApplication() {
+    @Override
+    public void onCreate() {
+        super.onCreate();
         mModel = new Model(this);
     }
 

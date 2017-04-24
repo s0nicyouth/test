@@ -5,5 +5,8 @@ package com.spentapp.spentvenues.presenters.interfaces;
  */
 
 public interface MainPresenterInterface {
-    void onUpdateNearable();
+    void onUpdateNearest();
+    void onStop();
+    void onStart();
+    void onDestroy();
 }

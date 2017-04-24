@@ -1,14 +1,16 @@
-package com.spentapp.spentvenues.model.interfaces;
+package com.spentapp.spentvenues.base;
+
+import io.realm.RealmObject;
 
 /**
  * Created by anton on 4/24/17.
  */
 
-public class ModelEntry {
+public class Entry {
     private String mName;
     private long mDistance;
 
-    public ModelEntry(String mName, long mDistance) {
+    public Entry(String mName, long mDistance) {
         this.mName = mName;
         this.mDistance = mDistance;
     }
